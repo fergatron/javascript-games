@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -d --color",
+    "start": "webpack-dev-server --color",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marc Ferguson",
   "license": "ISC",
-  "devDependencies": {
-    "http-server": "^0.11.1"
+  "devDependencies": {},
+  "dependencies": {
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
