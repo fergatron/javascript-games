@@ -1,3 +1,11 @@
-const canvas = {
-  
+export const canvas = {
+
+}
+
+function attachToDOM() {
+
+}
+
+function create() {
+
 }

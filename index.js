@@ -1,1 +1,1 @@
-import './src/canvas';
+import { canvas } from './src/canvas';
